@@ -16,7 +16,6 @@ const AddProduct = () => {
         e.preventDefault();
         let success = await addProduct()
         if (success) {
-            console.log("product added");
             setTimeout(() => {
                 navigate("/");
             }, 1000);
@@ -67,12 +66,7 @@ const AddProduct = () => {
                         placeholder="Category"
                         className="w-full px-4 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
-                    <input
-                        type="date"
-                        value={products.date}
-                        onChange={(e) => setProducts({ ...products, date: e.target.value })}
-                        className="w-full px-4 py-2 bg-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    />
+                   
                     <input
                         type="url"
                         value={products.imageUrl}

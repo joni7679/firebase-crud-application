@@ -45,5 +45,5 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/react-firebase-crud-app.git
+   git clone https://github.com/joni7679/firebase-crud-application
    cd react-firebase-crud-app
