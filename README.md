@@ -1,13 +1,49 @@
-# React + Vite
+# 🛍️ React Firebase CRUD App - Product Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured **CRUD (Create, Read, Update, Delete)** application built using **React.js**, **Firebase Firestore**, and **React Toastify**. This project allows users to **add**, **edit**, **delete**, and **view** product data with search functionality and responsive design using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search** products by name or category
+- 🆕 **Add** new products
+- ✏️ **Edit** existing product details
+- 🗑️ **Delete** products with confirmation
+- 📦 Product listing with image, title, price, category & date
+- 🌐 Fully responsive UI using Tailwind CSS
+- ☁️ Firebase Firestore as the backend database
+- 🔔 Toast notifications for feedback (success, error)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# firebase-crud-application
+---
+
+## 📁 Folder Structure
+src/
+├── components/
+│ └── ProductTable.jsx
+│ └── ShimmerTable.jsx
+├── context/
+│ └── ProductContext.jsx
+├── firebase/
+│ └── firebase.js
+├── App.js
+└── index.js
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Firebase Firestore
+- **State Management:** React Context API
+- **Notification:** React Toastify
+- **Routing:** React Router DOM
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/react-firebase-crud-app.git
+   cd react-firebase-crud-app
